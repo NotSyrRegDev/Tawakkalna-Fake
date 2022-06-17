@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tawakkalna Fake</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Noto+Sans+Arabic:wght@100;400;700&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+
+    <div class="main_container">
+        <div class="twklna_main_div">
+
+
+            <!-----------NOTIFICATION AREA------------>
+            <div class="mt-1"></div>
+            <div class="notifcation_area">
+                <img src="./images/TwklnaIcon.png" class="icon_notication" alt="">
+            </div>
+            <!-----------END NOTIFICATION AREA------------>
+
+              <!-----------PROFILE AREA------------>
+              <div class="mt-2"></div>
+              <div class="main_profile_area">
+                  <div class="bg_square_main">
+                    <div class="profile_square">
+                        <div class="flexing_col">
+                          
+                            <img src="./images/userAvatar.png" alt="" class="user_avatar">
+                            <h1 class="headline_green">محمد صافي الفيفي</h1>
+                            <h1 class="headline_green">202114570</h1>
+                           
+                          <div class="mt-1"></div>
+                            <div class="flexing_icons">
+                                <img src="./images/SquareTwklna.png" class="square_twklna" alt="">
+                                <img src="./images/TwklnaLogo.png" style="max-height:3rem;" alt="">
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+
+              </div>
+              <!-----------END PROFILE AREA------------>
+
+              <!-----------POPUP USER PROFIEL PIC------------->
+              <div class="popuo_main_profile_Div">
+                  <div class="closing_div_popup">
+                      <img src="./images/error.png" alt="">
+                  </div>
+
+                  <img src="./images/51362610.jpg" alt="" class="user_profile_thum_popup">
+                  <h1 class="headline_user_popup">Ammar Hamdi Humush</h1>
+                  <p class="subheadline_popup">2451682005</p>
+              </div>
+              <!-----------END POPUP USER PROFIEL PIC------------->
+
+              <!-----------STATUS AREA--------->
+              <div class="mt-5"></div>
+              <div class="twklna_status_div">
+                  <div class="refresh_div">
+                      <img src="./images/refreshIcon.png" alt="">
+                  </div>
+                  <div class="mr-2" >
+                    <h3>محصن</h3>
+                    <p>أكمل جرعات لقاح كورونا (كوفيد - ١٩) اخر تحديث: <span id="currentDay"></span>  <span id="dayNum"></span> <span id="monthText"></span> <span id="timeText"></span>.م
+                   
+                  </div>
+                  <div class="postioned_diveing">
+                      <!-- <div class="boxing_move"></div>
+                 -->
+                 <button class="draw">
+                    <img src="./images/thequrzoommetting1 (12).png" alt="" class="tklna_barcode">
+                 </button>
+                      <!-- <img src="./images/thequrzoommetting1 (12).png" alt="" class="tklna_barcode"> -->
+                  </div>
+                  
+                  
+                  </div>
+            
+              </div>
+
+              <!----------END STATUS AREA--------->
+
+              <div class="mt-3"></div>
+              <!-----------SERVICES AREA--------->
+            <div class="services_main_div">
+                <div class="flexing_icons">
+                    <h1 class="subheadline_services"> <img src="./images/left-chevron.png" style="height: 1rem;" alt=""> عرض الكل</h1>
+                    <h1 class="headline_services">الخدمات الحديثة</h1>
+                   
+                </div>
+
+                <div class="d-grid services_grid">
+                    <div class="mt-2"></div>
+                    <div class="g-col-4">
+
+                        <div class="single_service_div">
+                            <img src="./images/covid.png" alt="">
+                            <p> الجواز الصحي</p>
+                        </div>
+
+                        <div class="single_service_div">
+                            <img src="./images/qr-code.png" alt="">
+                            <p> باركود زيارة تجمع</p>
+                        </div>
+
+                        <div class="single_service_div">
+                            <img src="./images/truck.png" alt="">
+                            <p> أسعفني</p>
+                        </div>
+
+                        <div class="single_service_div">
+                            <img src="./images/personal-profile.png" alt="">
+                            <p>اصدار التصاريح</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+              <!-----------END SERVICES AREA--------->
+
+
+               
+
+
+        </div>
+    </div>
+      <!----------- ALERT AREA--------->
+      <div class="main_alert_area">
+        <p>تحذير <br>
+           <div class="italic_p">نحثك بشدة بتحميل تطبيق تباعد </div>
+           الذي يشعرك في حال ثبوت مخالتطك بمصاب بفايروس كورونا في الاسبوعين الماضيين, كما يمكنك من اشعار كل الذين خالتطهم خلال ١٤ يوما عند اصابتك بفيروس كورونا -لا سمح الله- دون خرق لخصوصيتك أو مشاركة بياناتك الشخصية مع الأخرين و شعروك بالمسئولية يحمينا جميعا من تفشي الفيروس</p>
+    </div>
+    <!-----------END ALERT AREA--------->
+    
+
+    <!-- <script src="./script.js"></script> -->
+
+    <script>
+        /* GETTING DATE */
+let today = new Date();
+let daysArray = ['الاحد'  ,'الأثنين' , 'الثلاثاء' , 'الاربعاء' , 'الخميس'  , 'الجمعة' , 'السبت'];
+let monthsArray = ['يناير'  , 'فبراير' , 'مارس' , 'ابريل'  , 'مايو' , 'يونيو' , 'يوليو' , 'أغسطس' , 'سبتمبر' , 'أكتوبر' , 'نوفمبر' , 'ديسمبر'];
+var time = today.getHours() + ":" + today.getMinutes();
+
+let currentDay = today.getDay();
+let currentDayNum = today.getDate();
+let currentMonth = today.getMonth() ;
+let currentDaySpan = document.getElementById('currentDay');
+let numDaySpan = document.getElementById('dayNum');
+let monthDaySpan = document.getElementById('monthText');
+let timeTextSpan = document.getElementById('timeText');
+
+let realCurrentDay = daysArray[currentDay];
+currentDaySpan.textContent = realCurrentDay;
+numDaySpan.textContent = currentDayNum;
+monthDaySpan.textContent = monthsArray[currentMonth];
+timeTextSpan.textContent = time;
+
+
+/* HANDLING SHOWUNG SINGLE USER PROFIELE */
+let userProiflePopDIv = document.querySelector('.popuo_main_profile_Div');
+let closingDivPopup = document.querySelector('.closing_div_popup');
+let userAvatar = document.querySelector('.user_avatar');
+
+userAvatar.addEventListener('click' , () => {
+    userProiflePopDIv.classList.toggle('active');
+})
+
+closingDivPopup.addEventListener('click' , () => {
+    userProiflePopDIv.classList.toggle('active');
+})
+
+    </script>
+
+</body>
+</html>

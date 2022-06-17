@@ -1,0 +1,122 @@
+* { margin: 0; padding: 0; }
+html { font-family: 'Noto Sans Arabic';  background: #efe9e9; }
+.main_container { width: 100%; height: auto;  margin: 0 auto; background: #fafafa;  }
+.phone__header { background: #fff !important; }
+.flexing_col { display: flex; flex-direction: column; align-items: center; justify-content: center;   }
+.twklna_main_div { margin: 0 25px;  }
+.timeing_headline { font-family: 'Lato'; font-size: 16px; color: rgb(103, 103, 103); }
+.user_avatar { border-radius: 50%; border: 3px solid #628b7d;  }
+.d-flex-c { display: flex; align-items: center; }
+.mt-1 { margin-top: 1rem; }
+.mt-2 { margin-top: 2rem; }
+.mt-3 { margin-top: 3rem; }
+.mt-4 { margin-top: 4rem; }
+.mt-5 { margin-top: 5rem; }
+.mr-1 { margin-right: 0.6rem; }
+.mr-2 { margin-right: 1rem; }
+.icon_phone_header { max-height: 18px; margin: 0 6px; }
+.flexing_icons { display: flex; align-items: center; justify-content: space-between;   }
+.bg_square_main {  }
+.profile_square {  margin: 0 3rem; background: url('./images/bgBackground.png') center / cover no-repeat;  }
+.user_avatar { max-height: 5rem; margin-bottom: 0.5rem; }
+.icon_notication { max-height: 1.7rem; margin: 0.5rem;  }
+.headline_green { margin: 3px 0; font-size: 28px; font-family: 'Abd ElRady Thin'; color: #628b7d; }
+.square_twklna { max-width: 20%; }
+.twklna_status_div { position: relative; margin: 0 1rem; background: linear-gradient(#028575 , #016358); text-align: right;  padding: 0.5rem;  display: flex; align-items: center; justify-content: flex-end;  }
+.twklna_status_div h3 { color: #fff; font-size: 22px; font-family: 'Lato'; margin-bottom: 5px; }
+.twklna_status_div p { color: #fff; font-size: 12px; width: 200px;  }
+.text-right { text-align: right !important; }
+.tklna_barcode { max-height: 5rem;  border: 5px solid #fff;   }
+.postioned_diveing { position: relative; }
+/* .boxing_move {  position: absolute; top: -8%; left: 0;  width: 50px; height: 8px; background-color: #fff;  -webkit-animation: borderMove 4s infinite;  } */
+.refresh_div img { height: 1.3rem; position: absolute; top: 10%; left: 5%;  }
+.services_main_div { margin: 0 2rem; }
+.headline_services { color:#628b7d ; font-size: 24px;  }
+
+.subheadline_services { font-size: 24px; color: rgb(167, 167, 167);  }
+.d-grid { display: grid; }
+.g-col-4 { display: grid;  grid-template-columns: repeat(4 , 1fr); grid-gap: 1.2rem; }
+.single_service_div { padding: 2.5rem 0.5rem; background: #fff; text-align: center;  box-shadow: 0 2px 3px rgba(0,0,0,0.3); }
+.main_alert_area { background: rgb(203, 26, 41); margin: 2rem; color: #fff; text-align: center; padding: 2rem;  }
+.italic_p { border-bottom: 10px thin #fff !important; }
+.popuo_main_profile_Div { position: fixed; background: #fff; box-shadow: 0 5px 6px rgba(0,0,0,0.3); top: 50%; ;left: 50%; transform: translate(-50% , -50%);  z-index: 9999; text-align: center;  padding: 1rem; padding-top: 2.5rem; padding-bottom: 1.5rem; visibility: hidden; opacity: 0; transition: all 0.3s ease-in;  }
+.popuo_main_profile_Div.active { opacity: 1; visibility: visible; }
+.user_profile_thum_popup { max-height: 12rem; border-radius: 50%;  }
+.headline_user_popup { font-size: 28px; color: #028575; line-height: 38px; font-family: 'Lato';  }
+.subheadline_popup { font-size:   18px; color: #028575; line-height: 24px; font-family: 'Lato';  }
+.closing_div_popup img { max-height: 1.5rem;  position: absolute; top: 5%; left: 5%; }
+
+@keyframes borderMove {
+  0% { padding: 6px;border: 3px solid #fff; }
+  
+  100% { padding: 6px;  border: 5px solid #fff;}
+}
+
+.draw {
+    padding: 6px;
+    outline:none;
+    border: none;
+    box-shadow: none;
+    background-image: 
+    linear-gradient(#fff, #fff), 
+    linear-gradient(#fff, #fff), 
+    linear-gradient(#fff, #fff), 
+    linear-gradient(#fff, #fff);
+    
+   
+    
+    background-position: 0 0, 0 0, 0 100%, 0 100%, 
+                         0 0, 0 0, 0 100%, 100% 0;
+    background-size: 9px 0%, 0% 9px, 0% 93px, 9px 0%,  
+                     9px 100%, 100% 9px, 100% 9px,9px 100%;
+    background-color:transparent;
+    background-repeat:no-repeat;
+    transition:0.2s linear;
+  }
+  
+  .draw {
+    background-position: 0 100%, 0 0, 0 100%, 100% 0, 
+                         0 0, 0 0, 0 100%, 100% 0;
+    background-size: 3px 0%, 100% 3px, 0% 3px,3px 0%,  
+                     3px 100%, 100% 3px, 100% 3px,3px 100%;
+    animation: animate 3.2s linear infinite 0.2s;
+  }
+  
+  @keyframes animate {
+    0% {
+    background-position: 0 100%, 0 0, 0 100%, 100% 0, 
+                         0 0, 0 0, 0 100%, 100% 0;
+    background-size: 3px 0%, 100% 3px, 0% 3px,3px 0%,  
+                     3px 100%, 100% 3px, 100% 3px,3px 100%;
+    }
+    40% {
+    background-position: 0 100%, 100% 0, 100% 100%, 100% 0, 
+                         0 0, 0 0, 0 100%, 100% 0;
+    background-size: 3px 0%, 100% 3px, 0% 3px,3px 100%,  
+                     3px 100%, 100% 3px, 100% 3px,3px 100%;
+    }
+    60% {
+    background-position: 0 100%, 100% 0, 100% 100%, 100% 100%, 
+                         0 0, 0 0, 0 100%, 100% 0;
+    background-size: 3px 0%, 0% 3px, 100% 3px,3px 100%,  
+                     3px 100%, 100% 3px, 100% 3px,3px 100%;
+    }
+    70% {
+    background-position: 0 100%, 100% 0, 0% 100%, 100% 100%, 
+                         0 0, 0 0, 0 100%, 100% 0;
+    background-size: 3px 100%, 0% 3px, 100% 3px,3px 0%,  
+                     3px 100%, 100% 3px, 100% 3px,3px 100%;
+    }
+    80% {
+    background-position: 0% 0%, 0% 0, 0% 100%, 100% 100%, 
+                         0 0, 0 0, 0 100%, 100% 0;
+    background-size: 3px 100%, 0% 3px, 0% 3px,3px 0%,  
+                     3px 100%, 100% 3px, 100% 3px,3px 100%;
+    }
+    100% {
+    background-position: 0% 0%, 0 0, 0 100%, 100% 100%, 
+                         0 0, 0 0, 0 100%, 100% 0;
+    background-size: 3px 0%, 100% 3px, 0% 3px,3px 0%,  
+                     3px 100%, 100% 3px, 100% 3px,3px 100%;  
+    }
+  }
